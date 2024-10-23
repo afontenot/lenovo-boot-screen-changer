@@ -98,7 +98,7 @@ def main():
         f"Logo enabled: {desp[1]}\n"
         f"Logo maximum resolution: {desp[2]}x{desp[3]}\n"
         f"Logo format support: {", ".join(support)}\n"
-        f"Logo CRC32: {dvc[8:12].hex()}"
+        f"Logo CRC32: {dvc[8:12].hex()}\n"
     )
 
     if not args.file and not args.disable:
