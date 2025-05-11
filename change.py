@@ -154,7 +154,7 @@ def main():
     desp = struct.pack(DESP_FMT, *desp)
     set_file_immutability(desp_path, False)
     with open(desp_path, "wb") as f:
-        f.write
+        f.write(desp)
     set_file_immutability(desp_path, True)
 
     print("Boot logo has been enabled.")
